@@ -13,6 +13,7 @@ body {
 }
 
 h1{
+    text-align: center;
     background-color: rgba(49, 49, 74, 1);
     background-image: linear-gradient(108deg, rgba(49, 49, 74, 1) 37%, rgba(13, 43, 154, 1) 75%);
     padding: 10px;
@@ -25,11 +26,6 @@ background-image: linear-gradient(90deg, rgba(233, 233, 247, 1) 0%, rgba(36, 2, 
     
 }
 
-.footer{
-    background-color: rgba(233, 233, 247, 1);
-background-image: linear-gradient(90deg, rgba(233, 233, 247, 1) 0%, rgba(36, 2, 39, 1) 100%);
-
-}
 
 
 

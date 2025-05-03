@@ -1,83 +1,101 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Prince Games - Tu destino para los mejores juegos de metal. Explora nuestra colección y descubre nuevas experiencias.">
-    <meta name="keywords" content="videojuegos, entretenimiento">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Prince Games - Tu destino para los mejores juegos de metal. Explora nuestra colección y descubre nuevas experiencias."
+    />
+    <meta name="keywords" content="videojuegos, entretenimiento" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
 
     <title>Prince Gaming</title>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="container">
-               <!-- NAVEGATION START -->
-               <nav class="navbar navbar-expand-sm bg-body-tertiary">
-                <div class="container-fluid">
-                    
-                    <img src="./assets/logo-prince-games.png" alt="logo" width="120px" height="px">
-                    <a class="navbar-brand" href="index.html">PrinceGaming</a>  
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-auto">
-                            
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="playstation.html">PlayStation</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="nintendo.html">Nintendo</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="xbox.html">Xbox</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contacto</a>
-                            </li>
-    
-                        </ul>
-                        
-                    </div>
-                </div>
-            </nav>
-    
-            <!-- END NAVEGATION -->
-            
-        <hr />
-        <!-- FORMS -->
-        <form>
-            <div class="mb-3">
-              <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control" id="name" name="name"/>
-              
-            </div>
-            <div class="mb-3">
-              <label for="Mensaje" class="form-label">Mensaje</label>
-              <input type="text" class="form-control" id="exampleInputPassword1">
-            </div>
-            
-            
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
-        <footer class="footer">
-            <p>&copy; 2023 Prince Gaming. Todos los derechos reservados.</p>
+      <!-- NAVEGATION START -->
+      <nav class="navbar navbar-expand-sm bg-body-tertiary">
+        <div class="container-fluid">
+          <img
+            src="./assets/logo-prince-games.png"
+            alt="logo"
+            width="120px"
+            height="px"
+          />
+          <a class="navbar-brand" href="index.html">PrinceGaming</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="playstation.html">PlayStation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nintendo.html">Nintendo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="xbox.html">Xbox</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-            <p>Cra. 38 No 10 - 09 Lc 160B Bogotá</p>
-        </footer>
+      <!-- END NAVEGATION -->
+
+      <hr />
+      <!-- FORMS -->
+      <form id="form">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" name="name" />
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">E-mail</label>
+            <input type="text" class="form-control" id="name" name="email" />
+          </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea
+            class="form-control"
+            id="message"
+            rows="3"
+            name="message"
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+      <footer class="footer">
+        <p>&copy; 2023 Prince Gaming. Todos los derechos reservados.</p>
+
+        <p>Cra. 38 No 10 - 09 Lc 160B Bogotá</p>
+      </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./JavaScript/script.js"></script>
-</body>
-
+  </body>
 </html>
