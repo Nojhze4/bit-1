@@ -9,13 +9,27 @@ body {
  
     height: 100%;
     margin: 0;
+
 }
 
+h1{
+    background-color: rgba(49, 49, 74, 1);
+    background-image: linear-gradient(108deg, rgba(49, 49, 74, 1) 37%, rgba(13, 43, 154, 1) 75%);
+    padding: 10px;
+}
+
+
 .navbar{
-    background-color: #ff5733 !important;
+background-color: rgba(233, 233, 247, 1);
+background-image: linear-gradient(90deg, rgba(233, 233, 247, 1) 0%, rgba(36, 2, 39, 1) 100%) !important;
     
 }
 
 .footer{
-    background-color: #ff5733;
+    background-color: rgba(233, 233, 247, 1);
+background-image: linear-gradient(90deg, rgba(233, 233, 247, 1) 0%, rgba(36, 2, 39, 1) 100%);
+
 }
+
+
+
