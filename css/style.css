@@ -21,10 +21,18 @@ h1{
 
 
 .navbar{
-background-color: rgba(233, 233, 247, 1);
-background-image: linear-gradient(90deg, rgba(233, 233, 247, 1) 0%, rgba(36, 2, 39, 1) 100%) !important;
+background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(142, 14, 227, 1) 100%) !important;
     
 }
+.navbar a{
+    color: #fff !important;
+    text-decoration: none !important;
+    font-size: 16px !important;
+    padding: 10px 20px !important;
+    display: inline-block !important;
+}
+
 
 
 
