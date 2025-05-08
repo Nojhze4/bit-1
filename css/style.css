@@ -44,14 +44,8 @@ form {
   margin: auto;
 }
 
-video {
-  background-color: #fff;
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
 
-
+/* Boton WP */
 .float {
   position: fixed;
   width: 60px;
@@ -78,7 +72,12 @@ video {
   text-decoration: none !important;
 }
 
-.danger {
- color: #dc3545 !important;
+.Titulo2-index{
+  background: #fff;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
