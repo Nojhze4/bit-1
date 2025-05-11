@@ -61,49 +61,47 @@
 
 <!-- END NAVEGATION -->
 
+    <h2>Gracias por tus comentarios</h2>
+    
+    <p>Si tienes alguna pregunta adicional, no dudes en contactarnos.</p>
+    
+    
       
       <!-- FORMS -->
-      <form id="form">
-        <div class="mb-3">
-          <label for="name" class="form-label">Name</label>
-          <input type="text" class="form-control" id="name" name="name" />
-        </div>
-        <div class="mb-3">
-            <label for="email" class="form-label">E-mail</label>
-            <input type="text" class="form-control" id="name" name="email" />
-          </div>
-        <div class="mb-3">
-          <label for="message" class="form-label">Message</label>
-          <textarea
-            class="form-control"
-            id="message"
-            rows="3"
-            name="message"
-          ></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
-      </form>
-      <footer>
-        <div class="container-fluid bg-dark p-5 text-start text-light">
+       <aside>
+     <div class="container mt-5">
+    <h2 class="text-center">Formulario de Contacto</h2>
+    <form id="contactForm">
+      <div class="mb-3">
+        <label for="name" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="name" required />
+      </div>
 
-            <div class="row-5 text-center">
-                <div class="col"><a href="index.html" class="text-decoration-none text-info">Home</a></div>
-                <div class="col"><a href="playstation.html" class="text-decoration-none text-info">PlayStation</a></div>
-                <div class="col"><a href="nintendo.html" class="text-decoration-none text-info">Nintendo</a></div>
-                <div class="col"><a href="xbox.html" class="text-decoration-none text-info">Xbox</a></div>
-                <div class="col"><a href="contact.html" class="text-decoration-none text-info">Contacto</a></div>
-            </div>
-            <p class="text-center text-decoration-none text-info">
-                Prince Gaming - Tu destino para los mejores juegos de consolas. Explora nuestra colección y descubre
-                nuevas experiencias. 
-                
-                Todos los derechos reservados &copy; 2025 Prince Gaming. 
-                <a href="https://www.instagram.com/princegamingcolombia/" target="_blank">Instagram</a> | <a
-                    href="https://www.facebook.com/princegamingcolombia" target="_blank">Facebook</a></a>
-            </p>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./JavaScript/script.js"></script>
+      <div class="mb-3">
+
+        <label for="email" class="form-label">Correo Electrónico</label> <input type="email" class="form-control"
+          id="email" required />
+      </div>
+      <div class="mb-3"> <label for="message" class="form-label">Mensaje</label> <textarea class="form-control"
+          id="message" rows="4" required></textarea> </div> <button type="submit"
+        class="btn btn-primary">Enviar</button>
+    </form> 
+
+
+      </form>
+      </aside>
+
+      <section>
+        <p>¡Gracias por visitar nuestro sitio web!</p>
+      </section>
+      <footer>
+    <div class="container-fluid bg-info p-3 text-center">
+      <p>Dirección</p>
+      <p>© 2023 Prince Gaming. Todos los derechos reservados.</p>
+      <p>Desarrollado por: <a href="" target="_blank">Jhon Ramirez</a></p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./JavaScript/script.js"></script>
 </body>
 
 </html>
