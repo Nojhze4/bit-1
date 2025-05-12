@@ -12,12 +12,6 @@
 
 - Git
 - GitHub
-- template
-- containers
-- grid
-- icons
-- images
-- layout
 - Html
 - Css
 - JavaScript
