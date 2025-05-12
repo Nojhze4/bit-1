@@ -56,10 +56,13 @@ form {
   padding: 25px;
   transition: ease 0.3s;
   box-shadow: 0px 0px 10px #000;
-  cursor: pointer;
+  animation: efecto 1.2s infinite;
 
+}
 
-
+.container boton:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
 }
 
 .boton {
@@ -68,8 +71,7 @@ form {
 }
 
 
-
-.navbar {
+.navbar{
   background: #020024;
   background: linear-gradient(90deg,
       rgba(2, 0, 36, 1) 0%,
@@ -90,3 +92,19 @@ form {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+
+
+
+footer {
+background-color: #343a40;
+color: #ffffff;
+text-align: center;
+padding: 10px 0;
+left: 0;
+bottom: 0;
+width: 100%;
+box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
