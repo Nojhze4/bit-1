@@ -10,12 +10,17 @@
 
 [![logo-bootstrap](http://cdn.raiolanetworks.com/blog/wp-content/uploads/portada-3.jpg "logo-bootstrap")](http://cdn.raiolanetworks.com/blog/wp-content/uploads/portada-3.jpg "logo-bootstrap")
 
+- Git
+- GitHub
 - template
 - containers
 - grid
 - icons
 - images
 - layout
+- Html
+- Css
+- JavaScript
 
 ------------
 ##Descripción
