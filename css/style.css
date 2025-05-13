@@ -108,3 +108,24 @@ box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
 }
 
 
+/* responsive en dispositivos inferiores a 650px */
+
+@media (max-width: 650px) {
+  form {
+    width: 90%;
+  }
+
+  .container boton {
+    width: 60px;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  p,
+  h2 {
+    font-size: 16px;
+  }
+}
