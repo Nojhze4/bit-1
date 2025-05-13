@@ -18,7 +18,7 @@ alert('Gracias por tu mensaje, nos pondremos en contacto pronto.');
 alert('Por favor, completa todos los campos correctamente.');
 }
 };
-// Función para validar los campos
+
 const validateForm = (name, email, message) => {
 const emailRegex = /^[^\s@]+@[^\s@]+.[^\s@]+$/
 return name !== '' && emailRegex.test(email) && message !== '';
