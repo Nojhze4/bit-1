@@ -13,7 +13,7 @@ body {
 h1 {
   text-align: center;
   color: rgb(5, 5, 5);
-  font-size: 40px;
+  font-size: 30px;
 }
 
 
@@ -108,7 +108,7 @@ box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
 }
 
 
-/* responsive en dispositivos inferiores a 650px */
+
 
 @media (max-width: 650px) {
   form {
