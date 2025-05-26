@@ -26,3 +26,5 @@ return name !== '' && emailRegex.test(email) && message !== '';
 
 contactForm.addEventListener('submit', handleSubmit);
 })
+
+
