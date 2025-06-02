@@ -23,5 +23,61 @@
     "nombre": "Base de carga DualSense",
     "descripcion": "Base oficial para cargar dos controles DualSense simultáneamente.",
     "precio": 120000
+  },
+  {
+    "nombre": "Control ps5 Dualsense",
+    "descripcion": "Mando inalámbrico DualSense, descubre una experiencia de juego más profunda con el innovador mando de PS5™.",
+    "precio": 350000,
+    "imagen": "./img/ps5/control-ps5-Dualsesnse.jpg",
+    "categoria": "PlayStation"
+  },
+  {
+    "nombre": "Control Xbox Series X",
+    "descripcion": "Control inalámbrico para Xbox Series X|S y Xbox One, compatible con PC.",
+    "precio": 320000,
+    "imagen": "./img/xbox/control-xbox-series-x.jpg",
+    "categoria": "Xbox"
+  },
+  {
+    "nombre": "Control Nintendo Switch Pro",
+    "descripcion": "Control ergonómico para Nintendo Switch, ideal para largas sesiones de juego.",
+    "precio": 300000,
+    "imagen": "./img/nintendo/control-nintendo-switch-pro.jpg",
+    "categoria": "Nintendo"
+  },
+  {
+    "nombre": "Auriculares Gaming HyperX Cloud Stinger",
+    "descripcion": "Auriculares ligeros con micrófono ajustable y sonido envolvente para todas las consolas.",
+    "precio": 220000,
+    "imagen": "./img/accesorios/auriculares-gaming-hyperx.jpg",
+    "categoria": "Accesorios"
+  },
+  {
+    "nombre": "Base de carga DualSense",
+    "descripcion": "Base oficial para cargar dos controles DualSense simultáneamente.",
+    "precio": 120000,
+    "imagen": "./img/accesorios/base-carga-dualsense.jpg",
+    "categoria": "Accesorios"
+  },
+  {
+    "nombre": "Cargador de baterías Xbox",
+    "descripcion": "Cargador oficial para baterías recargables de controles Xbox, compatible con Xbox One y Series X|S.",
+    "precio": 150000,
+    "imagen": "./img/xbox/cargador-baterias-xbox.jpg",
+    "categoria": "Xbox"
+  },
+  {
+    "nombre": "Soporte vertical para PlayStation 5",
+    "descripcion": "Soporte vertical oficial para PlayStation 5, mejora la ventilación y el espacio.",
+    "precio": 80000,
+    "imagen": "./img/ps5/soporte-vertical-ps5.jpg",
+    "categoria": "PlayStation"
+  },
+  {
+    "nombre": "Funda de transporte para Nintendo Switch",
+    "descripcion": "Funda de transporte oficial para Nintendo Switch, incluye espacio para juegos y accesorios.",
+    "precio": 60000,
+    "imagen": "./img/nintendo/funda-transporte-switch.jpg",
+    "categoria": "Nintendo"
   }
 ]

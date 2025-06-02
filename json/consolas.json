@@ -2,26 +2,36 @@
   {
     "nombre": "PlayStation 5",
     "descripcion": "La última consola de Sony con gráficos de última generación, SSD ultrarrápido y retrocompatibilidad.",
-    "precio": 3200000
-  },
-  {
-    "nombre": "Xbox Series X",
-    "descripcion": "La consola más potente de Microsoft, con soporte para 4K, almacenamiento rápido y gran catálogo de juegos.",
-    "precio": 3100000
-  },
-  {
-    "nombre": "Nintendo Switch",
-    "descripcion": "Consola híbrida de Nintendo que permite jugar en casa o en modo portátil, ideal para toda la familia.",
-    "precio": 1500000
+    "precio": 3200000,
+    "imagen": "./img/ps5/PlayStation5.jpg",
+    "categoria": "PlayStation"
   },
   {
     "nombre": "PlayStation 4",
     "descripcion": "Consola de generación anterior de Sony, con gran catálogo de juegos exclusivos y excelente rendimiento.",
-    "precio": 1200000
+    "precio": 1200000,
+    "imagen": "./img/ps4/ps4.jpg",
+    "categoria": "PlayStation"
+  },
+  {
+    "nombre": "Xbox Series X",
+    "descripcion": "La consola más potente de Microsoft, con soporte para 4K, almacenamiento rápido y gran catálogo de juegos.",
+    "precio": 3100000,
+    "imagen": "./img/xbox/XboxSeriesX.jpg",
+    "categoria": "Xbox"
+  },
+  {
+    "nombre": "Nintendo Switch",
+    "descripcion": "Consola híbrida de Nintendo que permite jugar en casa o en modo portátil, ideal para toda la familia.",
+    "precio": 1500000,
+    "imagen": "./img/nintendo/NintendoSwitch.jpg",
+    "categoria": "Nintendo"
   },
   {
     "nombre": "Xbox One S",
     "descripcion": "Versión compacta de la Xbox One, con soporte para streaming 4K y juegos retrocompatibles.",
-    "precio": 1100000
+    "precio": 1100000,
+    "imagen": "./img/xbox/XboxOneS.jpg",
+    "categoria": "Xbox"
   }
 ]

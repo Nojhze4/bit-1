@@ -62,4 +62,104 @@ async function mostrarConsolas() {
 
 document.addEventListener('DOMContentLoaded', mostrarConsolas);
 
-// ...existing code...
+
+// Mostrar consolas PlayStation desde consolas.json
+async function mostrarPSAccesorios() {
+  const container = document.getElementById('ps-accesorios-container');
+  if (!container) return;
+
+  try {
+    const response = await fetch('./json/accesorios.json');
+    const accesorios = await response.json();
+    // Filtrar solo PlayStation
+    const psAccesorios = accesorios.filter(a => a.categoria === "PlayStation");
+
+    container.innerHTML = psAccesorios.map(accesorio => {
+      // Simulación de disponibilidad: disponible si el precio es mayor a 0
+      const disponible = accesorio.precio > 0 ? "Disponible" : "Agotado";
+      const disponibilidadClass = accesorio.precio > 0 ? "text-success" : "text-danger";
+      return `
+      <div class="col-md-4 mb-4">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="${accesorio.imagen}" class="card-img-top" alt="${accesorio.nombre}" height="372px">
+              <div class="card-body">
+                <h5 class="card-title">${accesorio.nombre}</h5>
+                <p class="card-text fw-bold text-success">$${accesorio.precio.toLocaleString('es-CO')}</p>
+                <p class="card-text ${disponibilidadClass}">${disponible}</p>
+              </div>
+            </div>
+            <div class="flip-card-back">
+              <div class="card-body">
+                <h5 class="card-title">${accesorio.nombre}</h5>
+                <p class="card-text">${accesorio.descripcion}</p>
+                <p class="card-text fw-bold text-success">$${accesorio.precio.toLocaleString('es-CO')}</p>
+                <p class="card-text ${disponibilidadClass}">${disponible}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      `;
+    }).join('');
+  } catch (error) {
+    container.innerHTML = '<p>Error al cargar los accesorios PlayStation.</p>';
+  }
+}
+// Ejecutar funciones al cargar la página
+document.addEventListener('DOMContentLoaded', () => {
+  mostrarPSAccesorios();
+});
+
+// Nueva sección para PS4
+<div class="container my-5">
+  <h2>PlayStation 4</h2>
+  <div id="ps4-container" class="row"></div>
+</div>
+
+async function mostrarPS4() {
+  const container = document.getElementById('ps4-container');
+  if (!container) return;
+
+  try {
+    const response = await fetch('./json/consolas.json');
+    const consolas = await response.json();
+    // Filtrar solo PlayStation 4
+    const ps4 = consolas.filter(c => c.nombre === "PlayStation 4");
+
+    container.innerHTML = ps4.map(consola => {
+      // Simulación de disponibilidad: disponible si el precio es mayor a 0
+      const disponible = consola.precio > 0 ? "Disponible" : "Agotado";
+      const disponibilidadClass = consola.precio > 0 ? "text-success" : "text-danger";
+      return `
+      <div class="col-md-4 mb-4">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="${consola.imagen}" class="card-img-top" alt="${consola.nombre}" height="372px">
+              <div class="card-body">
+                <h5 class="card-title">${consola.nombre}</h5>
+                <p class="card-text fw-bold text-success">$${consola.precio.toLocaleString('es-CO')}</p>
+                <p class="card-text ${disponibilidadClass}">${disponible}</p>
+              </div>
+            </div>
+            <div class="flip-card-back">
+              <div class="card-body">
+                <h5 class="card-title">${consola.nombre}</h5>
+                <p class="card-text">${consola.descripcion}</p>
+                <p class="card-text fw-bold text-success">$${consola.precio.toLocaleString('es-CO')}</p>
+                <p class="card-text ${disponibilidadClass}">${disponible}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      `;
+    }).join('');
+  } catch (error) {
+    container.innerHTML = '<p>Error al cargar la PlayStation 4.</p>';
+  }
+}
+
+document.addEventListener('DOMContentLoaded', mostrarPS4);
