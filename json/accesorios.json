@@ -1,0 +1,27 @@
+[
+  {
+    "nombre": "Control inalámbrico DualSense",
+    "descripcion": "Control oficial para PlayStation 5 con retroalimentación háptica y gatillos adaptativos.",
+    "precio": 350000
+  },
+  {
+    "nombre": "Xbox Wireless Controller",
+    "descripcion": "Control inalámbrico para Xbox Series X|S y Xbox One, compatible con PC.",
+    "precio": 320000
+  },
+  {
+    "nombre": "Nintendo Switch Pro Controller",
+    "descripcion": "Control ergonómico para Nintendo Switch, ideal para largas sesiones de juego.",
+    "precio": 300000
+  },
+  {
+    "nombre": "Auriculares Gaming HyperX Cloud Stinger",
+    "descripcion": "Auriculares ligeros con micrófono ajustable y sonido envolvente para todas las consolas.",
+    "precio": 220000
+  },
+  {
+    "nombre": "Base de carga DualSense",
+    "descripcion": "Base oficial para cargar dos controles DualSense simultáneamente.",
+    "precio": 120000
+  }
+]
